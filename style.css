@@ -124,9 +124,11 @@ section .row {
     max-width: 100%;
     max-height: 100%;
     overflow-x: auto;
-    
+        /* transition: all 0.8s; */
+}
 
-    /* transition: all 0.8s; */
+.section .row::-webkit-scrollbar {
+    width: 0;
 }
 
 
