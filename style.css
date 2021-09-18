@@ -1,0 +1,298 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    
+}
+
+#banner {
+    background-image: url(https://wallpapercave.com/wp/wp5080939.jpg);
+    display: flex;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    max-width: 100%;
+
+    
+}
+
+#glen {
+    list-style: none;
+}
+
+#glen li {
+    display: inline-block;
+    padding: 0 40px;
+      
+}
+
+#glen li a {
+    transition: all 0.3s ease 0,3s;
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    letter-spacing: 1px;
+    justify-content: space-between;
+    margin: 30px;
+    font-size: 10px;
+
+}
+
+
+
+#glen li a:hover {
+    color: rgb(211, 39, 211);
+}
+
+.container {
+    background-color: rgb(12, 12, 12);
+    /* max-width: 100%;
+    max-height: 100%; */
+}
+
+
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    font-size: 75px;
+    margin-top: 50px;
+    color: rgb(120, 12, 134);
+    font-family: 'Tourney', cursive;
+}
+
+.goty p {
+    /* margin-top: 20px; */
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Goldman', cursive;
+    letter-spacing: 1px;
+    
+}
+
+h2 {
+    color: white;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 40px;
+    font-family: 'Goldman', cursive;
+    font-size: 50px;
+    letter-spacing: 6px;
+
+}
+
+
+.column img {
+     max-width: 190px;
+     max-height: 190px;
+    
+} 
+
+figcaption {
+    color: white;
+    text-align: center;
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 1px;
+    margin-right: 30px;
+}
+
+.company {
+    color: rgba(255, 255, 255, 0.274);
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+section .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 33px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow-x: auto;
+    
+
+    /* transition: all 0.8s; */
+}
+
+
+
+section .row img {
+    transition: all 0.2s ease-in;
+}
+
+section .row img:hover {
+    transform: translatey(-30px);
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgb(92, 10, 92);
+}
+
+
+
+.container-foot {
+    max-width: 1170px;
+    margin: auto;
+}
+
+#img-foot {
+    max-height: 50%;
+    max-width: 40%;
+    margin-top: 10px;
+}
+
+.row-foot {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list {
+    list-style: none;
+}
+
+.social {
+    list-style: none;
+}
+
+#footer {
+    background-color: rgb(0, 0, 0);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container-foot {
+    margin-top: 50px;
+}
+
+.footer-col {
+    max-width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h3 {
+    font-size: 12px;
+    margin-bottom: 25px;
+    margin-top: 5px;
+    color: rgb(180, 180, 180);
+    font-family: 'Goldman', cursive;
+    
+}
+
+/* .footer-col h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: rgb(0, 255, 13);
+    height: 3px;
+    box-sizing: border-box;
+    width: 125px;
+}  */
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 10px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+    color: rgb(153, 153, 153);
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 1px;
+    margin: 20px;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+    transform: translateX(10px);
+}
+
+.footer-col .social {
+    display: flex;
+}
+
+.footer-col .social  a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(100, 100, 100, 0.274);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.footer-col .social a:hover {
+    background-color: rgba(192, 192, 192, 0.274);
+}
+
+/* @media only screen and (max-width: 800px) {
+    h2 { 
+     font-size: 16px;
+     }
+ } */
+ 
+ 
+  @media(max-width: 930px) {
+      #banner {
+         background-size: 1200px;
+      }
+    }
+
+  @media(max-width: 800px) {
+    #banner {
+       background-size: 800px;
+    }
+    h2 {
+      font-size: 20px;  
+    }
+    .goty p {
+        font-size: 16px;
+    }
+  }
+
+  @media(max-width:894px) {
+      section .row img {
+          max-width: 80px;
+          max-height: 80px;
+      }
+  }
+
+  @media(max-width:576px) {
+      section .row img {
+          max-width: 50px;
+          max-height: 50px;
+      }
+  }
+
+  
+
+@media(max-width: 600px) {
+    #banner {
+       background-size: 400px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .goty p {
+        font-size: 12px;
+    }
+    
+
+}
